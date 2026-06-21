@@ -1,19 +1,20 @@
+
+
 {
-  "name": "Knight Bot MINI",
-  "description": "WhatsApp MD bot (Baileys)",
-  "repository": "",
-  "keywords": ["whatsapp", "baileys", "bot", "node"],
+  "name": "🗡️MOMY-KIDY MD🗡️",
+  "description": "SESSION ID GENERATOR FOR WHATSAPP BOTS",
+  "logo": "https://files.catbox.moe/natk49.jpg",
+  "repository": "https://github.com/timnasax/Mimi-bot-",
+  "keywords": ["MOMY-KIDY BOT"],
+  "success_url": "/", 
   "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-    }
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }
   ],
-  "env": {
-    "SESSION_ID": {
-      "description": "KnightBot session string (e.g. KnightBot!<base64_compressed_data>)",
-      "required": false,
-      "value": ""
+  "env": {      
+    "MESSAGE": {
+      "description": "Msg Attached With Session ID",
+      "value": "🔐 𝐏𝐨𝐰𝐞𝐫𝐝 𝐁𝐲 jamali 𝐓𝐞𝐜𝐡 🔐",
+      "required": false 
     }
   }
 }
-
